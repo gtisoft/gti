@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<style type="text/css">
+		    [required]{
+				border-color: green;
+				box-shadow: 0px 0px 5px grey;
+			}
+			:invalid{
+				 border-color> red;
+				 box-shadow: 0px 0px 5px red; 
+			}
+			div{
+			  
+			  border: 1px solid	black;
+			  padding 10px 40px;
+			  background: #cecece;
+			  width:270px;
+			  border-radius:10px;
+			  -moz-border-radius:10px; /*compatibilidad con mozila*/
+			  
+			  box-shadow: 5px 5px 15px #888888;
+			  transform:traslate(50px,100px);
+			  -moz-transform:traslate(50px,100px);
+			  -webkit-transform:traslate(50px,100px);
+			}
+		</style>
+	</head>
+	
+	<body>
+	  <div align="center">
+		<form id="form1" name="logeo"  method="post" action="insercionUsuarionuevo.php" target="_parent">
+		<table>
+            <tr>
+               <td>Nombre
+               </td>
+               <td>
+                   <input name="nom" type="text" />
+               </td>
+            </tr>
+            <tr>
+               <td>Apellido Paterno
+               </td>
+               <td>
+                   <input name="ap" type="text" />
+               </td>
+            </tr>
+            <tr>
+               <td>Apellido Materno
+               </td>
+               <td>
+                   <input name="am" type="text" />
+               </td>
+            </tr>
+            <tr>
+               <td>Email
+               </td>
+               <td>
+                   <input name="mailuser" type="email" value="usuario@dominio.com"/>
+               </td>
+            </tr>
+			<tr>
+               <td>Paswor
+               </td>
+               <td> 
+                   <input name="pas" type="pasword" >
+               </td>
+            </tr>
+			<tr>
+               <td>
+               </td>
+               <td>
+                   <input type="submit" value="Ingresar">
+               </td>
+            </tr>
+		</table>
+		<form>
+	  </div>	
+	</body>
+</html>

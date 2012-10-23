@@ -1,0 +1,41 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>solicitud de viajes y viaticos</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <fieldset>
+                        
+            <p><img src="/imagen/prueba.png" /><label id="lb1">Solicitud de pasajes y viaticos</label> <label id="lb2">fecha</label><input type="date" id="fecha_cabecera"/></p>
+            
+        </fieldset>
+        
+        <fieldset >      
+            <legend>Datos</legend>
+            <label>Nombres<input type="text" size="70"></label><br>
+            <label>Item <input type="text" size="50"></label><br>
+            <label>Unidad <input type="text" size="50"></label>
+            <label>Cargo<input type="text" size="70"></label><br>
+                   
+        </fieldset>
+        <fieldset>
+            <legend>Viaje</legend>
+            <label>Fecha Viaje<input type="date"></label><label class="lb1">Destino<input type="text" id="destino_descripcion"></label><label class="lb2"> Fecha Retorno<input type="date"></label><br>
+            <label id="itinerario1">Itinerario 08:00</label><label id="itinerario2">Itinerario 18:00</label>            
+        </fieldset>
+        <fieldset>
+            <legend>Objeto del Viaje</legend>
+            <textarea placeholder="sea lo mas preciso y conciso en sus motivos" id="motivo"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Permiso</legend><br><br><br>
+            <pre>Solicitante               Jefe de Area                   Gerencia de Area                 Otro: ______________________</pre>
+        </fieldset>
+    </body>
+</html>

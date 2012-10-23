@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<style type="text/css">
+		    [required]{
+				border-color: green;
+				box-shadow: 0px 0px 5px grey;
+			}
+			:invalid{
+				 border-color> red;
+				 box-shadow: 0px 0px 5px red; 
+			}
+			
+		
+           div{
+		      width:300px;
+			   height:100px;
+			   border: 1px solid	black;
+			   padding 10px 40px;
+			   border-radius:20px 20px 20px 20px;
+			  background:#cecece;
+		      transform:translate(400px,150px);
+			  -moz-transform:translate(400px,150px);
+			  -webkit-transform:translate(400px,150px);
+			  box-shadow: 10px 10px 20px #888888;
+			 
+			}
+       </style> 
+	</head>
+	
+	<body>
+	  <div id="cajalogin" align="center">
+		<form id="form1" name="logeo"  method="post" action="ingreso.php" target="_parent">
+		<table>
+            <tr>
+               <td>Email
+               </td>
+               <td>
+                   <input name="mailuser" type="email" value="usuario@dominio.com"/>
+               </td>
+            </tr>
+			<tr>
+               <td>Paswor
+               </td>
+               <td> 
+                   <input name="pas" type="pasword" >
+               </td>
+            </tr>
+			<tr>
+               <td>
+               </td>
+               <td>
+                   <input type="submit" value="Ingresar">
+               </td>
+            </tr>
+		</table>
+		<form>
+	  </div>	
+	</body>
+</html>

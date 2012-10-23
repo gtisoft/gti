@@ -1,0 +1,158 @@
+/* 
+    Document   : estilos
+    Created on : 06-oct-2012, 16:26:01
+    Author     : pattyTo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background-color: #ffffff;
+	margin: 0 10%;
+	font-family: serif;
+        font-weight: bold;
+	}
+p label{
+   font-family: Arial,Helvetica,sans-serif; 
+}
+label{
+    display: inline ;
+  /*  block: .5em 0 0 0;    */
+    
+    size: 100px;
+}
+
+
+h6{
+    margin-left: 2em;
+}
+.persona_sistema{
+    width: 90%;
+}
+#sistemas_acceso tr{
+ 
+    background-color: activeborder;
+}
+.observacion{
+    width: 70%;
+}
+h1 {
+	
+	font-family: serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-bottom: 1px solid red; /*linea debajo resaltante*/
+	margin-top: 30px;
+        font-size: 14px;
+}
+p{
+    font-family: sans-serif,cursive;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+legend p {
+    
+    
+    direction: rtl;
+}
+h4{
+    margin-left: 10em;
+    
+}
+#lb1{
+    position: fixed;
+    top:4em;
+    left: 15em;
+    font-weight: bold;
+    font-size: 25px;
+}
+#lb2{
+    font-weight: bolder;
+    font-size: 18px;
+    position: fixed;
+    top:6em;
+    left: 49em;
+}
+#nombres{
+   
+    width: 50%;
+}
+#fecha_cabecera{
+    position: fixed;
+    top: 8em;
+    left: 70em;
+    
+     
+}
+#itinerario1{
+    font-weight: bold;
+}
+#itinerario2{
+    margin-left: 40em;
+    font-weight: bold;
+}
+#destino_descripcion{
+    margin-left: 1em;
+    width: 30%;
+}
+fieldset:first-child{
+    position: relative;
+    margin-top: 2em;
+}
+.lb1{
+    margin-left: 3em;
+}
+.lb2{
+    margin-left: 3em;
+
+}
+.tabla_reporte,tr{
+    margin-left: 6em;
+    border: appworkspace solid 2px;
+    font-family: serif;
+    font-weight: normal;
+    font-size: 15px;    
+}
+
+.cabecera{
+    
+    margin-left: 3em;
+    font-weight: bolder;
+    
+    font-size: 20px;
+    position: relative;
+    top: 2em;
+}
+
+
+p img{
+    width: 100px;
+    height: 100px;
+ 
+}
+
+#motivo{
+    
+    width: 80em;
+    height: 10em;
+}
+
+
+#datosSolicitud{
+    
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+h2{
+    font-size: 30px;
+    background-color: #f0f0f0;
+    text-align: center;
+    /*margin-top: 3em;*/
+    
+    border-bottom: 3px solid #57b1dc; 
+    
+    clip: rect(0px, 0px, 0px, 0px);
+    border-bottom-style: groove;
+    border-bottom-width: 4px;
+}

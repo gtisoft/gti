@@ -1,0 +1,103 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acceso a Sistema</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        
+        <h2>Formulario A / B / M de Usuario en Sistemas</h2>
+        
+        <fieldset> 
+            <legend>I. Datos de los Solicitantes</legend> 
+            <pre>Item : <input type="text">  Documento : <input type="text"> Apellido Paterno : <input type="text"> Apelido Materno : <input type="text">  Nombre(s) : <input type="text"></pre>
+            <pre>Item : <input type="text">  Documento : <input type="text"> Apellido Paterno : <input type="text"> Apelido Materno : <input type="text">  Nombre(s) : <input type="text"></pre>
+            <pre>Item : <input type="text">  Documento : <input type="text"> Apellido Paterno : <input type="text"> Apelido Materno : <input type="text">  Nombre(s) : <input type="text"></pre>
+            <pre>Item : <input type="text">  Documento : <input type="text"> Apellido Paterno : <input type="text"> Apelido Materno : <input type="text">  Nombre(s) : <input type="text"></pre>
+            <pre>Item : <input type="text">  Documento : <input type="text"> Apellido Paterno : <input type="text"> Apelido Materno : <input type="text">  Nombre(s) : <input type="text"></pre>
+           
+        </fieldset>
+       <fieldset>
+            <legend>Datos de la Cuenta Solicitada</legend>
+            <label>Tipo de Acceso</label>
+            <ul>
+                <li><input type="checkbox" value="Usuario"> Usuario</li>
+                <li><input type="checkbox" value="Base de Datos" checked> Base de Datos</li>
+                <li><input type="checkbox" value="No requiere Acceso"> No requiere Acceso</li>
+                <li><input type="checkbox" value="otros">Otros</li>
+            </ul>
+            <label>Empresa</label>
+            <ul>
+                <li><input type="checkbox">X</li>
+                <li><input type="checkbox">Y</li>
+                <li><input type="checkbox">Otra</li>
+            </ul>
+            <label>Descripción de trabajo que realizarán con la cuenta solicitada:</label><br>
+            <textarea id="motivo"></textarea>            
+        </fieldset>        
+        <fieldset>
+            <legend>Sistemas a los que solicita el Acceso:</legend>
+            <table id="sistemas_acceso">
+                <tr>
+                    <th>Nro.</th>
+                    <th>Sistema?</th>
+                    <th>Persona que actualmente ya tiene una cuenta similar?</th>
+                    <th>Cuenta Dominio</th>
+                    <th>Ejecutivo Ventas</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" class="persona_sistema"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" class="persona_sistema"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" class="persona_sistema"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" class="persona_sistema"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><input type="text"></td>
+                    <td><input type="text" class="persona_sistema"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>APROBACIÓN <em>(si el que solicita NO es JEFE ,no necesita llenar esta seccion)</em></legend>
+            <label>Solicitud con copia o aprobado por los Propietarios de la información (Comercial/Técnica,..:</label><br>
+            <pre>Nombre: <input type="text"> Cargo: <input type="text">Firma:<input type="text">
+                Observacion en caso de rechazo<input type="text" class="observacion"></pre>
+            <label>Solicitud con copia o aprobado por el jefe inmediato superior (UT o superior)</label>
+            <pre>Nombre: <input type="text"> Cargo: <input type="text">Firma:<input type="text">
+                Observacion en caso de rechazo<input type="text" class="observacion"></pre>
+            <label>En caso que solicite acceso a detalle de llamadas requiere autorización de la G.A.F.</label>
+            <pre>Nombre: <input type="text"> Cargo: <input type="text">Firma:<input type="text">
+                Observacion en caso de rechazo<input type="text" class="observacion"></pre>
+        </fieldset>
+    </body>
+</html>

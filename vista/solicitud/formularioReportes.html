@@ -1,0 +1,88 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>solicitud de reportes</title>
+        <link rel="stylesheet" href="estilos.css" type="text/css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <p><label>Proyecto/ Proyecto:</label><input type="text" placeholder="Nombre"></p>
+        <h2>Formulario de solicitud de reportes</h2>
+        <label>1.Objetivo</label><br>
+        <textarea class="observacion" name="objetivo" placeholder="Una pequeña justificación de lo que trata el documento, en qué sistema se realizará o cuál
+reporte reemplazará."></textarea><br><br>
+    <fieldset> 
+        <legend>1.1  Roles que accederan a los reportes (Actores)</legend>
+        <table>
+            <tr>
+                <th id="num"></th>
+                <th>rol</th>
+                <th>caracteristicas</th>
+            </tr>
+            <tr>
+                <td id="num_area"><input type="text" name="numero_rol" maxlength="3"></td>
+                <td><input type="text" name="nombre_rol" ></td>
+                <td><input type="text" name="actividad_rol" ></td>
+            </tr>
+        </table>   
+        </fieldset>
+<div id="div1">
+        <fieldset>
+            <legend> 2. Descripcion de los reportes</legend>
+            <h3 >2.1 Reporte 1</h3>
+            <label>2.1.1 Filtros para la busqueda</label><br>
+            <pre>Desde<input type="date" name="desde" style="margin-right: 3em"> Hasta<input type="date" name="hasta">   <select ><option>area1</option></select></pre>
+        <label >2.1.2 Orden</label><br>
+        <pre>           <select><option>ascendente</option><option>descendente</option></select></pre>
+        <label >2.1.3 Columnas Resultado</label><br>
+        <table class="tabla_reporte">
+            <tr>
+                <th> Columna 1 </th>
+                <th> columna 2 </th>
+                <th> columna 3 </th>
+                <th> columna .. </th>
+            </tr>
+            <tr>
+                <td>Resultados</td>
+                <td>Resultados</td>
+                <td>Resultados</td>
+                <td>Resultados</td>
+            </tr>
+                       
+        </table>
+        </fieldset>
+        </div>
+<div id="div2">
+     <fieldset>
+        <h3 >2.2 Reporte 2</h3>
+        <label>2.2.1 Filtros para la busqueda</label><br>
+            <pre>Desde<input type="date" name="desde" style="margin-right: 3em"> Hasta<input type="date" name="hasta">   <select ><option>area1</option></select></pre>
+        <label >2.2.2 Orden</label><br>
+        <pre>           <select><option>ascendente</option><option>descendente</option></select></pre>
+        <label >2.2.3 Columnas Resultado</label><br>
+        <table class="tabla_reporte">
+            <tr>
+                <th> Columna 1 </th>
+                <th> columna 2 </th>
+                <th> columna 3 </th>
+                <th> columna .. </th>
+            </tr>
+            <tr>
+                <td>Resultados</td>
+                <td>Resultados</td>
+                <td>Resultados</td>
+                <td>Resultados</td>
+            </tr>
+                       
+        </table>
+        </fieldset>
+    </div>
+    <fieldset>
+        <h3>  2.3 Anexos</h3>
+    </fieldset>
+    </body>
+</html>
